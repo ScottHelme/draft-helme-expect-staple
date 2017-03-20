@@ -50,26 +50,26 @@ Expect-Staple Host
   : See HTTP Expect-Staple Host.
 
 HTTP Expect-Staple
-  : is the overall name for the combined UA- and server-side security policy
+  : overall name for the combined UA- and server-side security policy
   defined by this specification.
 
 HTTP Expect-Staple Host
-  : is a conformant host implementing the HTTP server aspects of HTTP
+  : a conformant host implementing the HTTP server aspects of HTTP
   Expect-Staple. This means that an Expect-Staple Host returns the "Expect-Staple"
   HTTP response header field in its HTTP response messages sent over secure
   transport.
 
 Known Expect-Staple Host
-  : is an Expect-Staple Host that the UA has noted as such. See
+  : an Expect-Staple Host that the UA has noted as such. See
   {{noting-expect-staple}} for particulars.
 
 UA
-  : is an acronym for "user agent". For the purposes of this specification, a UA
+  : an acronym for "user agent". For the purposes of this specification, a UA
   is an HTTP client application typically actively manipulated by a user
   {{!RFC2616}}.
 
 Unknown Expect-Staple Host
-  : is an Expect-Staple Host that the UA has not noted.
+  : an Expect-Staple Host that the UA has not noted.
 
 # Server and Client Behavior
 
@@ -311,7 +311,7 @@ instead of the 90-day value provided by the Expect-Staple Host.)
 
 ### HTTP-Equiv \<meta\> Element Attribute
 
-UAs MUST NOT heed `http-equiv="Expect-Staple"` attribute settings on `<meta>`
+UAs MUST ignore `http-equiv="Expect-Staple"` attribute settings on `<meta>`
 elements {{!W3C.REC-html401-19991224}} in received content.
 
 ## Noting Expect-Staple
