@@ -192,10 +192,10 @@ The `includeSubDomains` directive does not have a directive value.
 
 Some example Expect-Staple response header fields.
 
-    Expect-Staple: max-age=0; report-uri https://example.com/report/ct
-    Expect-Staple: max-age=3600; report-uri https://example.com/report/ct
-    Expect-Staple: max-age=31536000; report-uri https://example.com/report/ct; includSubDomains
-    Expect-Staple: max-age=31536000; report-uri https://example.com/report/ct; includSubDomains; preload
+    Expect-Staple: max-age=0; report-uri="https://example.com/report/ct"
+    Expect-Staple: max-age=3600; report-uri="https://example.com/report/ct"
+    Expect-Staple: max-age=31536000; report-uri="https://example.com/report/ct"; includSubDomains
+    Expect-Staple: max-age=31536000; report-uri="https://example.com/report/ct"; includSubDomains; preload
 
 ## Server Processing Model
 
